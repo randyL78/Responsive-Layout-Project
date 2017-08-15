@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ***************************************
+   Basic Browser inconsistencies fixes
+   pertaining to current project
+   Selective pieces come from normalize.css v7.0.0
+   For more info visit: https://necolas.github.io/normalize.css/
+****************************************** */
+
+html {
+  line-height: 1.15; /* Give consistent line height in all browsers */
+  -ms-text-size-adjust: 100%; /* Prevent font size adjustments after orientation changes in IE and Windows phones */
+  -webkit-text-size-adjust: 100%; /* Prevent font size adjustments after orientation changes in iOS */
+}
+
+/* Correct HTML 5 elements for use in IE9 */
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main { 
+  display: block;
+}
+
+/* Add the correct margin in IE 8. */
+
+figure {
+  margin: 1em 40px;
+}
+
+/* Text and link fixes ******************* */
+
+a {
+  background-color: transparent; /* Remove the gray background on active links in IE 10. */
+  -webkit-text-decoration-skip: objects; /* Remove gaps in links underline in iOS 8+ and Safari 8+ */
+}
+
+
+/* Add the correct font weight in Chrome, Edge, and Safari, 
+   Without doubling it in Safari 6 */
+b,
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+
+
+/* ********************************************
+    Global Styles 
+*********************************************** */
+
+/*  include padding and border in total width and height */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   /* Remove predifined margins and padding */
+   margin:0; 
+   padding: 0;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
