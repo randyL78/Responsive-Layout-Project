@@ -66,7 +66,7 @@ body {
 
 h1,
 h2 {
-   font-family: 'Anton', sans-serif;
+   font-family: 'Raleway', sans-serif;
 }
 
 h1, 
@@ -167,6 +167,15 @@ header {
 .wrapper {
    margin: 25px 20Px;
    text-align: center;
+}
+
+.card {
+   opacity: .7;
+   transition: all, 1.3s;
+}
+
+.card:hover {
+   opacity: 1;
 }
 
 .card img {

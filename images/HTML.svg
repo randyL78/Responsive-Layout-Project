@@ -8,25 +8,25 @@
 	.st2{fill:#E6E6E6;}
 	.st3{fill:#F2F2F2;}
 	.st4{fill:#B3B3B3;}
-	.st5{opacity:0.5;fill:#808080;}
+	.st5{opacity:0.5;fill:#808080;enable-background:new    ;}
 	.st6{fill:#808080;}
 </style>
 <g>
-	<rect class="st0" width="300" height="201"/>
+	<rect class="st0" width="300" height="200"/>
 </g>
-<rect x="50" y="37.5" class="st1" width="200" height="125"/>
-<rect x="50" y="46.5" class="st2" width="200" height="7"/>
-<rect x="58" y="41" class="st2" width="27" height="6"/>
-<rect x="50" y="54" class="st3" width="200" height="109"/>
-<rect x="75" y="77" class="st1" width="90" height="70"/>
-<rect x="180" y="77" class="st1" width="45" height="70"/>
-<rect x="75" y="57" class="st4" width="150" height="16"/>
-<circle class="st2" cx="88" cy="65" r="8"/>
-<rect x="75" y="151" class="st4" width="150" height="12"/>
-<rect x="50" y="163" class="st5" width="200" height="3"/>
+<rect x="72.5" y="37.5" class="st1" width="155" height="125"/>
+<rect x="72.5" y="46.5" class="st2" width="155" height="7"/>
+<rect x="78.7" y="41" class="st2" width="20.9" height="6"/>
+<rect x="72.5" y="54" class="st3" width="155" height="109"/>
+<rect x="91.9" y="77" class="st1" width="69.8" height="70"/>
+<rect x="173.3" y="77" class="st1" width="34.9" height="70"/>
+<rect x="91.9" y="57" class="st4" width="116.3" height="16"/>
+<ellipse class="st2" cx="101.9" cy="65" rx="6.2" ry="8"/>
+<rect x="91.9" y="151" class="st4" width="116.3" height="12"/>
+<rect x="72.5" y="163" class="st5" width="155" height="3"/>
 <g>
-	<path class="st6" d="M111.6,112l5.6-2.9v0.8l-4.7,2.4v0l4.7,2.4v0.8l-5.6-2.9V112z"/>
-	<path class="st6" d="M117.9,116l3.3-8.7h0.8l-3.4,8.7H117.9z"/>
-	<path class="st6" d="M128.4,112.6l-5.6,2.9v-0.8l4.7-2.4v0l-4.7-2.4v-0.8l5.6,2.9V112.6z"/>
+	<path class="st6" d="M120.2,112l4.3-2.9v0.8l-3.6,2.4l0,0l3.6,2.4v0.8l-4.3-2.9V112z"/>
+	<path class="st6" d="M125.1,116l2.6-8.7h0.6l-2.6,8.7H125.1z"/>
+	<path class="st6" d="M133.3,112.6l-4.3,2.9v-0.8l3.6-2.4l0,0l-3.6-2.4v-0.8l4.3,2.9V112.6z"/>
 </g>
 </svg>
