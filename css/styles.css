@@ -181,7 +181,8 @@ header {
    margin: 90px 10Px;
    padding: 10px 0;
    text-align: center;
-   background-color: rgba(255,255,255,1)
+   background-color: rgba(255,255,255,1);
+   border-bottom: #632C72 3px solid;
 }
 
 .flex-container {
@@ -211,6 +212,11 @@ header {
 .card p {
    padding-left: 10px;
    padding-right: 10px;
+}
+
+/* override opacity for contacts, because its the only one in div */
+#contact .card {
+   opacity: 1;
 }
 
 /* ********************************************
@@ -311,7 +317,8 @@ footer {
    }
    
    .wrapper {
-      background-color: rgba(255,255,255,.3)
+      background-color: rgba(255,255,255,.3);
+      border-radius: 35px;
    }
    .flex-container {
       padding-left: 1%;
