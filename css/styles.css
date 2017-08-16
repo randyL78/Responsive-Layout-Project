@@ -181,7 +181,7 @@ header {
 .card {
    margin-top: 25px;
    opacity: .7;
-   transition: all, 1.3s;
+   transition: opacity, 1.3s;
 }
 
 .card:hover {
@@ -208,7 +208,7 @@ footer {
    height: 125px;
 }
 
-/*place name on far left, anchor on far right */
+/* place name on far left, anchor on far right */
 .footer-nav {
    flex-direction: row;
    -ms-justify-content: space-between; /* IE 10 */
@@ -246,6 +246,16 @@ footer {
 
 @media screen and (min-width: 768px) {
    
+   /* make nav "sticky" in larger screen widths */
+   
+   .main-nav {
+      position: fixed;
+      margin-top: -50px;
+      width: 100%;
+      z-index: 200; /* bring nav to front regardless of transitions */
+   }
+   
+   
    /* display nav elements horizontally */
    
    nav li {   
@@ -257,6 +267,7 @@ footer {
    }
    
    header {
+      padding-top: 170px; /* account for height of fixed navbar + 25px */
       flex-direction: row;
       margin-left: 35px;
       margin-right: 35px;
@@ -266,6 +277,7 @@ footer {
       max-width: 100%;
    }
 
+   /* align profile text in line with top of picture and to the left */
    .header-text {
       font-size: 1.2rem;
       line-height: 1.6rem;
@@ -286,19 +298,20 @@ footer {
    }
    
    .card {
-      width: 48%;
+      width: 48%; /* 50% - 2% to account for padding */
    }
    
    #contact {
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 750px;
    }
     
    /* override card width for contacts, because its the only one in div */
    #contact .card {
       width: 100%;
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 10%;
+      padding-right: 10%;
    }
    
    footer {
@@ -321,9 +334,39 @@ footer {
 } /* end 768px media query */
 
 @media screen and (min-width: 1024px) {
+
+   /* display Name brand on left, nav bar on right */
+   .main-nav {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 50px;
+      padding-right: 50px;
+   }
    
+   header {
+      padding-top: 100px; /* account for height of fixed navbar + 25px */
+      max-width: 974px;
+      margin-left: auto;
+      margin-right: auto;
+   }
    
-}
+   .header-text,
+   #profile-image {
+      padding-left: 25px;
+      padding-right: 25px;
+   }
+   
+   .card {
+      width: 31%; /* 1/3 of div - 2% for padding */
+   }
+   
+   footer {
+      height: 80px;
+      padding: 15px 50px;
+   }
+   
+
+} /* end 1024px media query */
 
 
 
