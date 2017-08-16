@@ -220,10 +220,12 @@ footer {
    margin: 10px 0;
 }
 
+/* hide multi-item nav when viewed on mobile */
 .footer-ul {
    display: none;
 }
 
+/* turn mobile footer nav into a button */
 #back-top {
    background-color: rgba(99,44,114,0.50);
    border-radius: 5%;
@@ -256,21 +258,24 @@ footer {
    
    header {
       flex-direction: row;
+      margin-left: 35px;
+      margin-right: 35px;
    }
    
    #profile-image {
       max-width: 100%;
    }
-   
-   header  {
-      margin-left: 35px;
-      margin-right: 35px;
-   }
-   
+
    .header-text {
       font-size: 1.2rem;
       line-height: 1.6rem;
       padding-right: 25px;
+      text-align: left;
+      align-self: flex-start;
+   }
+   
+   .header-text p {
+      margin-top: 0;
    }
    
    .flex-container {
@@ -314,6 +319,19 @@ footer {
       display: none;
    }
 } /* end 768px media query */
+
+@media screen and (min-width: 1024px) {
+   
+   
+}
+
+
+
+
+
+
+
+
 
 
 
